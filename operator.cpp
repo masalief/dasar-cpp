@@ -18,18 +18,16 @@ int main() {
 
 // 2. 
 
-#include <iostream>
-using namespace std;
 
-int main() {
-    int m = 24; // nilai m
-    int k = 21; // nilai k
-    int j = m % k; // menggunakan operator modulus
+// int main() {
+//     int m = 24; // nilai m
+//     int k = 21; // nilai k
+//     int j = m % k; // menggunakan operator modulus
 
-    cout << "Nilai j = " << j << endl; // menampilkan hasil
+//     cout << "Nilai j = " << j << endl; // menampilkan hasil
 
-    return 0;
-}
+//     return 0;
+// }
 
 // Penjelasan Kode
 // Inisialisasi Variabel: Variabel m diinisialisasi dengan nilai 24, dan k diinisialisasi dengan nilai 21.
@@ -38,18 +36,16 @@ int main() {
 
 // 3. 
 
-#include <iostream>
-using namespace std;
 
-int main() {
-    int m = 24; // nilai m
-    int k = 21; // nilai k
-    int j = m & k; // menggunakan operator bitwise AND
+// int main() {
+//     int m = 24; // nilai m
+//     int k = 21; // nilai k
+//     int j = m & k; // menggunakan operator bitwise AND
 
-    cout << "Nilai j = " << j << endl; // menampilkan hasil
+//     cout << "Nilai j = " << j << endl; // menampilkan hasil
 
-    return 0;
-}
+//     return 0;
+// }
 
 // Penjelasan Kode
 // Inisialisasi Variabel: Variabel m diinisialisasi dengan nilai 24, dan k diinisialisasi dengan nilai 21.
@@ -58,19 +54,17 @@ int main() {
 
 // 4.
 
-#include <iostream>
-using namespace std;
 
-int main() {
-    int m = 24; // nilai m
-    int k = 21; // nilai k
-    int j = m + ++k; // menggunakan pre-increment pada k
+// int main() {
+//     int m = 24; // nilai m
+//     int k = 21; // nilai k
+//     int j = m + ++k; // menggunakan pre-increment pada k
 
-    cout << "Nilai j = " << j << endl; // menampilkan hasil
-    cout << "Nilai k setelah increment = " << k << endl; // menampilkan nilai k setelah increment
+//     cout << "Nilai j = " << j << endl; // menampilkan hasil
+//     cout << "Nilai k setelah increment = " << k << endl; // menampilkan nilai k setelah increment
 
-    return 0;
-}
+//     return 0;
+// }
 
 // Penjelasan Kode
 // Inisialisasi Variabel: Variabel m diinisialisasi dengan nilai 24, dan k diinisialisasi dengan nilai 21.
@@ -79,19 +73,17 @@ int main() {
 
 // 5.
 
-#include <iostream>
-using namespace std;
 
-int main() {
-    int m = 24; // nilai m
-    int k = 21; // nilai k
-    int j = m - --k; // menggunakan pre-decrement pada k
+// int main() {
+//     int m = 24; // nilai m
+//     int k = 21; // nilai k
+//     int j = m - --k; // menggunakan pre-decrement pada k
 
-    cout << "Nilai j = " << j << endl; // menampilkan hasil
-    cout << "Nilai k setelah decrement = " << k << endl; // menampilkan nilai k setelah decrement
+//     cout << "Nilai j = " << j << endl; // menampilkan hasil
+//     cout << "Nilai k setelah decrement = " << k << endl; // menampilkan nilai k setelah decrement
 
-    return 0;
-}
+//     return 0;
+// }
 
 // Penjelasan Kode
 // Inisialisasi Variabel: Variabel m diinisialisasi dengan nilai 24, dan k diinisialisasi dengan nilai 21.
@@ -100,19 +92,17 @@ int main() {
 
 // 6. 
 
-#include <iostream>
-using namespace std;
 
-int main() {
-    int m = 24; // nilai m
-    int k = 21; // nilai k
-    int j = m - --k; // menggunakan pre-decrement pada k
+// int main() {
+//     int m = 24; // nilai m
+//     int k = 21; // nilai k
+//     int j = m - --k; // menggunakan pre-decrement pada k
 
-    cout << "Nilai j = " << j << endl; // menampilkan hasil
-    cout << "Nilai k setelah decrement = " << k << endl; // menampilkan nilai k setelah decrement
+//     cout << "Nilai j = " << j << endl; // menampilkan hasil
+//     cout << "Nilai k setelah decrement = " << k << endl; // menampilkan nilai k setelah decrement
 
-    return 0;
-}
+//     return 0;
+// }
 
 // Penjelasan Kode
 // Inisialisasi Variabel: Variabel m diinisialisasi dengan nilai 24, dan k diinisialisasi dengan nilai 21.
@@ -121,17 +111,15 @@ int main() {
 
 // 7. 
 
-#include <iostream>
-using namespace std;
 
-int main() {
-    int m = 24; // nilai m
-    int j = m >> 2; // menggunakan operator right shift
+// int main() {
+//     int m = 24; // nilai m
+//     int j = m >> 2; // menggunakan operator right shift
 
-    cout << "Nilai j = " << j << endl; // menampilkan hasil
+//     cout << "Nilai j = " << j << endl; // menampilkan hasil
 
-    return 0;
-}
+//     return 0;
+// }
 
 // Penjelasan Kode
 // Inisialisasi Variabel: Variabel m diinisialisasi dengan nilai 24.
@@ -140,19 +128,17 @@ int main() {
 
 // 8. 
 
-#include <iostream>
-using namespace std;
 
-int main() {
-    int m = 24; // nilai m
-    int k = 21; // nilai k
-    int j = k += m; // menambahkan m ke k dan menugaskan hasilnya ke j
+// int main() {
+//     int m = 24; // nilai m
+//     int k = 21; // nilai k
+//     int j = k += m; // menambahkan m ke k dan menugaskan hasilnya ke j
 
-    cout << "Nilai j = " << j << endl; // menampilkan hasil
-    cout << "Nilai k setelah penambahan = " << k << endl; // menampilkan nilai k setelah penambahan
+//     cout << "Nilai j = " << j << endl; // menampilkan hasil
+//     cout << "Nilai k setelah penambahan = " << k << endl; // menampilkan nilai k setelah penambahan
 
-    return 0;
-}
+//     return 0;
+// }
 
 // Penjelasan Kode
 // Inisialisasi Variabel: Variabel m diinisialisasi dengan nilai 24, dan k diinisialisasi dengan nilai 21.
@@ -161,20 +147,18 @@ int main() {
 
 // 9. 
 
-#include <iostream>
-using namespace std;
 
-int main() {
-    int m = 24; // nilai m
-    int k = 21; // nilai k
-    int j = --m + k++; // menggunakan pre-decrement pada m dan post-increment pada k
+// int main() {
+//     int m = 24; // nilai m
+//     int k = 21; // nilai k
+//     int j = --m + k++; // menggunakan pre-decrement pada m dan post-increment pada k
 
-    cout << "Nilai j = " << j << endl; // menampilkan hasil
-    cout << "Nilai m setelah decrement = " << m << endl; // menampilkan nilai m setelah decrement
-    cout << "Nilai k setelah increment = " << k << endl; // menampilkan nilai k setelah increment
+//     cout << "Nilai j = " << j << endl; // menampilkan hasil
+//     cout << "Nilai m setelah decrement = " << m << endl; // menampilkan nilai m setelah decrement
+//     cout << "Nilai k setelah increment = " << k << endl; // menampilkan nilai k setelah increment
 
-    return 0;
-}
+//     return 0;
+// }
 
 // Penjelasan Kode
 // Inisialisasi Variabel: Variabel m diinisialisasi dengan nilai 24, dan k diinisialisasi dengan nilai 21.
@@ -183,19 +167,17 @@ int main() {
 
 // 10. 
 
-#include <iostream>
-using namespace std;
 
-int main() {
-    int m = 24; // nilai m
-    int k = 21; // nilai k, tidak digunakan dalam perhitungan
-    int j = --m * 5; // menggunakan pre-decrement pada m dan mengalikan dengan 5
+// int main() {
+//     int m = 24; // nilai m
+//     int k = 21; // nilai k, tidak digunakan dalam perhitungan
+//     int j = --m * 5; // menggunakan pre-decrement pada m dan mengalikan dengan 5
 
-    cout << "Nilai j = " << j << endl; // menampilkan hasil
-    cout << "Nilai m setelah decrement = " << m << endl; // menampilkan nilai m setelah decrement
+//     cout << "Nilai j = " << j << endl; // menampilkan hasil
+//     cout << "Nilai m setelah decrement = " << m << endl; // menampilkan nilai m setelah decrement
 
-    return 0;
-}
+//     return 0;
+// }
 
 // Penjelasan Kode
 // Inisialisasi Variabel: Variabel m diinisialisasi dengan nilai 24, dan k diinisialisasi dengan nilai 21 (meskipun k tidak digunakan dalam perhitungan).
