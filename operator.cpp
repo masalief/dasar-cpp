@@ -1,15 +1,15 @@
 #include <iostream>
 using namespace std;
 
-int main() {
-    int m = 24; // nilai m
-    int k = 21; // nilai k
-    int j = m | k; // menggunakan operator bitwise OR
+// int main() {
+//     int m = 24; // nilai m
+//     int k = 21; // nilai k
+//     int j = m | k; // menggunakan operator bitwise OR
 
-    cout << "Nilai j = " << j << endl; // menampilkan hasil
+//     cout << "Nilai j = " << j << endl; // menampilkan hasil
 
-    return 0;
-}
+//     return 0;
+// }
 
 // Penjelasan Kode
 // Inisialisasi Variabel: Variabel m diinisialisasi dengan nilai 24, dan k diinisialisasi dengan nilai 21.
@@ -168,16 +168,16 @@ int main() {
 // 10. 
 
 
-// int main() {
-//     int m = 24; // nilai m
-//     int k = 21; // nilai k, tidak digunakan dalam perhitungan
-//     int j = --m * 5; // menggunakan pre-decrement pada m dan mengalikan dengan 5
+int main() {
+    int m = 24; // nilai m
+    int k = 21; // nilai k, tidak digunakan dalam perhitungan
+    int j = --m * 5; // menggunakan pre-decrement pada m dan mengalikan dengan 5
 
-//     cout << "Nilai j = " << j << endl; // menampilkan hasil
-//     cout << "Nilai m setelah decrement = " << m << endl; // menampilkan nilai m setelah decrement
+    cout << "Nilai j = " << j << endl; // menampilkan hasil
+    cout << "Nilai m setelah decrement = " << m << endl; // menampilkan nilai m setelah decrement
 
-//     return 0;
-// }
+    return 0;
+}
 
 // Penjelasan Kode
 // Inisialisasi Variabel: Variabel m diinisialisasi dengan nilai 24, dan k diinisialisasi dengan nilai 21 (meskipun k tidak digunakan dalam perhitungan).
